@@ -1,0 +1,566 @@
+// !$*UTF8*$!
+{
+	"archiveVersion" = 1;
+	"classes" = {
+	};
+	"objectVersion" = 56;
+	"objects" = {
+		"A11C0A000000000000000001" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "folder.assetcatalog";
+			"path" = "Fortem/Assets.xcassets";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"A11C0A000000000000000002" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "A11C0A000000000000000001";
+		};
+		"A11C0A000000000000000003" = {
+			"isa" = "PBXShellScriptBuildPhase";
+			"buildActionMask" = 2147483647;
+			"files" = ();
+			"inputPaths" = ("$(SRCROOT)/../app/src/main/res/drawable-nodpi/fortem_logo.png");
+			"outputPaths" = ("$(SRCROOT)/Fortem/Assets.xcassets/AppIcon.appiconset/GeneratedAppIcon.png");
+			"name" = "Prepare Fortem app icon";
+			"runOnlyForDeploymentPostprocessing" = 0;
+			"shellPath" = "/bin/sh";
+			"shellScript" = "# Generate the Apple icon from the existing opaque Fortem logo.\nset -eu\n/usr/bin/sips -z 1024 1024 \"$SRCROOT/../app/src/main/res/drawable-nodpi/fortem_logo.png\" --out \"$SRCROOT/Fortem/Assets.xcassets/AppIcon.appiconset/GeneratedAppIcon.png\" >/dev/null\n";
+		};
+		"771B80785CB4F0B67451090E" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "Fortem/Audio.swift";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"6625E21C3E4167CA494A9152" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "771B80785CB4F0B67451090E";
+		};
+		"A6F857B877F3F00A4069D5B4" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "Fortem/FortemApp.swift";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"39EF9293F7756AE68A9E7D1E" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "A6F857B877F3F00A4069D5B4";
+		};
+		"21AB5C255E90A68B8AAB879D" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "Fortem/Instrument.swift";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"9B132886D7868673A82EB9C0" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "21AB5C255E90A68B8AAB879D";
+		};
+		"EC1485DFFC6CA332D512BE88" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "Fortem/Keyboard.swift";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"199CAECB51504E02526F4C61" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "EC1485DFFC6CA332D512BE88";
+		};
+		"D496C60D16C27FD004C49BFE" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "Fortem/MIDI.swift";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"EB12948E12289427EF759D51" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "D496C60D16C27FD004C49BFE";
+		};
+		"A6292493E7EC6AA5AF0E39D1" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.cpp.cpp";
+			"path" = "Fortem/Native/FortemDSP.cpp";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"8F0ED029BE6092B3303DC624" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "A6292493E7EC6AA5AF0E39D1";
+		};
+		"FCB48C7934C515BD6FBD58D4" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.cpp.cpp";
+			"path" = "Fortem/Native/FortemMIDI.cpp";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"B479771D0231E112483C7D27" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "FCB48C7934C515BD6FBD58D4";
+		};
+		"8BFA1EB0AD5C4BF234DF419E" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.cpp.cpp";
+			"path" = "Fortem/Native/piano_sample_bank.cpp";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"6B6B206AB135EE02729C065A" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "8BFA1EB0AD5C4BF234DF419E";
+		};
+		"E846D541165C3F749C7E1983" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "Fortem/Performance.swift";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"F0F90F775EAC866F6F8983B4" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "E846D541165C3F749C7E1983";
+		};
+		"5EE7C55CB7A1DB79CD45D48B" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "Fortem/PlatformControls.swift";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"EEB5F4EEE366BF8B0C6068A6" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "5EE7C55CB7A1DB79CD45D48B";
+		};
+		"234F10FA7A49C7F231B1F4CD" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "Fortem/Tuning.swift";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"3029553ADC59CEBEEB823E34" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "234F10FA7A49C7F231B1F4CD";
+		};
+		"5EF34C0FEAFD5C66F95E609D" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.c.h";
+			"path" = "Fortem/Fortem-Bridging-Header.h";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"6089C49CD720192E68BD9BAA" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.c.h";
+			"path" = "Fortem/Native/FortemDSP.h";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"80DD302DB253C9842B45BEC1" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.c.h";
+			"path" = "Fortem/Native/FortemMIDI.h";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"E0DC9BC9DDDBBFADF9875B72" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.c.h";
+			"path" = "Fortem/Native/peak_limiter.h";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"98756BDC899BC0DDC4DC0FC9" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.c.h";
+			"path" = "Fortem/Native/piano_sample_bank.h";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"5C07D1E47B9D61946ABD1EB7" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "folder";
+			"name" = "piano";
+			"path" = "../app/src/main/assets/piano";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"6D17D9E98153E74DF655198B" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "5C07D1E47B9D61946ABD1EB7";
+		};
+		"0398CCD0F49298B10A3D76A4" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "text";
+			"name" = "LICENSE";
+			"path" = "../LICENSE";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"816CA781668D02057C8A0807" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "0398CCD0F49298B10A3D76A4";
+		};
+		"6BF3D372028F4325A339814C" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "text";
+			"name" = "SALAMANDER_GRAND_PIANO.txt";
+			"path" = "../app/src/main/assets/licenses/SALAMANDER_GRAND_PIANO.txt";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"D86F525CAAEEA6E82A487A49" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "6BF3D372028F4325A339814C";
+		};
+		"26B2A637F7DC4079D5AB78A5" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "text.xml";
+			"name" = "PrivacyInfo.xcprivacy";
+			"path" = "Fortem/PrivacyInfo.xcprivacy";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"B35B61FF3B1070FBD7E774C6" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "26B2A637F7DC4079D5AB78A5";
+		};
+		"7B594B6DB375E1BF3F23CDD6" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "text.plist.xml";
+			"path" = "Fortem/Info.plist";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"E05FCB614AB36FDEE72EE1F2" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "FortemTests/FortemTests.swift";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"80FAC02A0BD5812E2A00F339" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "E05FCB614AB36FDEE72EE1F2";
+		};
+		"38A007151ABE87CC01A5B6E9" = {
+			"isa" = "PBXFileReference";
+			"explicitFileType" = "wrapper.application";
+			"path" = "Fortem.app";
+			"sourceTree" = "BUILT_PRODUCTS_DIR";
+		};
+		"B7480EC88B7F22D0A4757273" = {
+			"isa" = "PBXFileReference";
+			"explicitFileType" = "wrapper.cfbundle";
+			"path" = "FortemTests.xctest";
+			"sourceTree" = "BUILT_PRODUCTS_DIR";
+		};
+		"3A2A88DEEFF3D1D23E496597" = {
+			"isa" = "PBXGroup";
+			"children" = ("A11C0A000000000000000001","771B80785CB4F0B67451090E","A6F857B877F3F00A4069D5B4","21AB5C255E90A68B8AAB879D","EC1485DFFC6CA332D512BE88","D496C60D16C27FD004C49BFE","A6292493E7EC6AA5AF0E39D1","FCB48C7934C515BD6FBD58D4","8BFA1EB0AD5C4BF234DF419E","E846D541165C3F749C7E1983","5EE7C55CB7A1DB79CD45D48B","234F10FA7A49C7F231B1F4CD","5EF34C0FEAFD5C66F95E609D","6089C49CD720192E68BD9BAA","80DD302DB253C9842B45BEC1","E0DC9BC9DDDBBFADF9875B72","98756BDC899BC0DDC4DC0FC9","5C07D1E47B9D61946ABD1EB7","0398CCD0F49298B10A3D76A4","6BF3D372028F4325A339814C","26B2A637F7DC4079D5AB78A5","7B594B6DB375E1BF3F23CDD6");
+			"name" = "Fortem";
+			"sourceTree" = "<group>";
+		};
+		"8B7A6DECC0651D269EA794C7" = {
+			"isa" = "PBXGroup";
+			"children" = ("E05FCB614AB36FDEE72EE1F2");
+			"name" = "Tests";
+			"sourceTree" = "<group>";
+		};
+		"1EE63A94BAD0DF0FCB0E7B8C" = {
+			"isa" = "PBXGroup";
+			"children" = ("38A007151ABE87CC01A5B6E9","B7480EC88B7F22D0A4757273","B58968AD397FA1A20599C9F3");
+			"name" = "Products";
+			"sourceTree" = "<group>";
+		};
+		"049C0EFB5E8C62E0CD7458BB" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "FortemUITests/FortemUITests.swift";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"2296975E2AED84E2F7C26790" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "049C0EFB5E8C62E0CD7458BB";
+		};
+		"16678A1132D56F73C968CC5A" = {
+			"isa" = "PBXGroup";
+			"children" = ("049C0EFB5E8C62E0CD7458BB");
+			"name" = "UI Tests";
+			"sourceTree" = "<group>";
+		};
+		"B58968AD397FA1A20599C9F3" = {
+			"isa" = "PBXFileReference";
+			"explicitFileType" = "wrapper.cfbundle";
+			"path" = "FortemUITests.xctest";
+			"sourceTree" = "BUILT_PRODUCTS_DIR";
+		};
+		"B28B7AF69320201D1CF206EB" = {
+			"isa" = "PBXGroup";
+			"children" = ("3A2A88DEEFF3D1D23E496597","8B7A6DECC0651D269EA794C7","16678A1132D56F73C968CC5A","1EE63A94BAD0DF0FCB0E7B8C");
+			"sourceTree" = "<group>";
+		};
+		"905DB04043B7311D06A28734" = {
+			"isa" = "PBXSourcesBuildPhase";
+			"buildActionMask" = 2147483647;
+			"files" = ("6625E21C3E4167CA494A9152","39EF9293F7756AE68A9E7D1E","9B132886D7868673A82EB9C0","199CAECB51504E02526F4C61","EB12948E12289427EF759D51","8F0ED029BE6092B3303DC624","B479771D0231E112483C7D27","6B6B206AB135EE02729C065A","F0F90F775EAC866F6F8983B4","EEB5F4EEE366BF8B0C6068A6","3029553ADC59CEBEEB823E34");
+			"runOnlyForDeploymentPostprocessing" = 0;
+		};
+		"06F5DC629BD46AAFD46564D1" = {
+			"isa" = "PBXResourcesBuildPhase";
+			"buildActionMask" = 2147483647;
+			"files" = ("A11C0A000000000000000002","6D17D9E98153E74DF655198B","816CA781668D02057C8A0807","D86F525CAAEEA6E82A487A49","B35B61FF3B1070FBD7E774C6");
+			"runOnlyForDeploymentPostprocessing" = 0;
+		};
+		"6C18526817C1377C39321D31" = {
+			"isa" = "PBXFrameworksBuildPhase";
+			"buildActionMask" = 2147483647;
+			"files" = ();
+			"runOnlyForDeploymentPostprocessing" = 0;
+		};
+		"7CB9C5DBBDFFE89694C24C30" = {
+			"isa" = "PBXSourcesBuildPhase";
+			"buildActionMask" = 2147483647;
+			"files" = ("80FAC02A0BD5812E2A00F339");
+			"runOnlyForDeploymentPostprocessing" = 0;
+		};
+		"56DA8A5B6AE55FD126745C5C" = {
+			"isa" = "PBXFrameworksBuildPhase";
+			"buildActionMask" = 2147483647;
+			"files" = ();
+			"runOnlyForDeploymentPostprocessing" = 0;
+		};
+		"D799BAE6088A90139B415FCC" = {
+			"isa" = "PBXContainerItemProxy";
+			"containerPortal" = "98F54143AB4E86B28C3AFEE0";
+			"proxyType" = 1;
+			"remoteGlobalIDString" = "7D1043473D55BFA90E8530D3";
+			"remoteInfo" = "Fortem";
+		};
+		"E9FAD0C6CD43534327C0AF90" = {
+			"isa" = "PBXTargetDependency";
+			"target" = "7D1043473D55BFA90E8530D3";
+			"targetProxy" = "D799BAE6088A90139B415FCC";
+		};
+		"89E1FD6268CC0F221A2BE178" = {
+			"isa" = "XCBuildConfiguration";
+			"buildSettings" = {
+				"CLANG_ENABLE_MODULES" = "YES";
+				"CLANG_ENABLE_OBJC_ARC" = "YES";
+				"CLANG_CXX_LANGUAGE_STANDARD" = "c++17";
+				"CLANG_CXX_LIBRARY" = "libc++";
+				"IPHONEOS_DEPLOYMENT_TARGET" = "16.0";
+				"SDKROOT" = "iphoneos";
+				"SWIFT_VERSION" = "5.0";
+				"SWIFT_STRICT_CONCURRENCY" = "targeted";
+				"ENABLE_TESTABILITY" = "YES";
+				"GCC_OPTIMIZATION_LEVEL" = "0";
+				"SWIFT_OPTIMIZATION_LEVEL" = "-Onone";
+				"DEBUG_INFORMATION_FORMAT" = "dwarf";
+				"GCC_PREPROCESSOR_DEFINITIONS" = ("$(inherited)","DEBUG=1");
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS" = "DEBUG";
+			};
+			"name" = "Debug";
+		};
+		"E6DE6C99132752C914FEF632" = {
+			"isa" = "XCBuildConfiguration";
+			"buildSettings" = {
+				"CLANG_ENABLE_MODULES" = "YES";
+				"CLANG_ENABLE_OBJC_ARC" = "YES";
+				"CLANG_CXX_LANGUAGE_STANDARD" = "c++17";
+				"CLANG_CXX_LIBRARY" = "libc++";
+				"IPHONEOS_DEPLOYMENT_TARGET" = "16.0";
+				"SDKROOT" = "iphoneos";
+				"SWIFT_VERSION" = "5.0";
+				"SWIFT_STRICT_CONCURRENCY" = "targeted";
+				"ENABLE_TESTABILITY" = "NO";
+				"GCC_OPTIMIZATION_LEVEL" = "s";
+				"SWIFT_OPTIMIZATION_LEVEL" = "-O";
+				"DEBUG_INFORMATION_FORMAT" = "dwarf-with-dsym";
+				"GCC_PREPROCESSOR_DEFINITIONS" = ("$(inherited)");
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS" = "";
+			};
+			"name" = "Release";
+		};
+		"862894B703A6DEDF96A9DD6C" = {
+			"isa" = "XCConfigurationList";
+			"buildConfigurations" = ("89E1FD6268CC0F221A2BE178","E6DE6C99132752C914FEF632");
+			"defaultConfigurationIsVisible" = 0;
+			"defaultConfigurationName" = "Release";
+		};
+		"E9B2E96ABC5F6856F2BE79CF" = {
+			"isa" = "XCBuildConfiguration";
+			"buildSettings" = {
+				"PRODUCT_NAME" = "Fortem";
+				"PRODUCT_BUNDLE_IDENTIFIER" = "app.fortem.apple";
+				"INFOPLIST_FILE" = "Fortem/Info.plist";
+				"CODE_SIGN_STYLE" = "Automatic";
+				"CURRENT_PROJECT_VERSION" = "19";
+				"ASSETCATALOG_COMPILER_APPICON_NAME" = "AppIcon";
+				"MARKETING_VERSION" = "1.0.3";
+				"OTHER_LDFLAGS" = ("$(inherited)","-framework","CoreMIDI");
+				"TARGETED_DEVICE_FAMILY" = "1,2";
+				"SUPPORTED_PLATFORMS" = "iphoneos iphonesimulator";
+				"SWIFT_OBJC_BRIDGING_HEADER" = "Fortem/Fortem-Bridging-Header.h";
+				"HEADER_SEARCH_PATHS" = ("$(inherited)","$(SRCROOT)/Fortem/Native");
+				"LD_RUNPATH_SEARCH_PATHS" = ("$(inherited)","@executable_path/Frameworks");
+				"SUPPORTS_MACCATALYST" = "NO";
+				"SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD" = "YES";
+				"ENABLE_USER_SCRIPT_SANDBOXING" = "YES";
+			};
+			"name" = "Debug";
+		};
+		"5A8C91857F674E16E2724F47" = {
+			"isa" = "XCBuildConfiguration";
+			"buildSettings" = {
+				"PRODUCT_NAME" = "Fortem";
+				"PRODUCT_BUNDLE_IDENTIFIER" = "app.fortem.apple";
+				"INFOPLIST_FILE" = "Fortem/Info.plist";
+				"CODE_SIGN_STYLE" = "Automatic";
+				"CURRENT_PROJECT_VERSION" = "19";
+				"ASSETCATALOG_COMPILER_APPICON_NAME" = "AppIcon";
+				"MARKETING_VERSION" = "1.0.3";
+				"OTHER_LDFLAGS" = ("$(inherited)","-framework","CoreMIDI");
+				"TARGETED_DEVICE_FAMILY" = "1,2";
+				"SUPPORTED_PLATFORMS" = "iphoneos iphonesimulator";
+				"SWIFT_OBJC_BRIDGING_HEADER" = "Fortem/Fortem-Bridging-Header.h";
+				"HEADER_SEARCH_PATHS" = ("$(inherited)","$(SRCROOT)/Fortem/Native");
+				"LD_RUNPATH_SEARCH_PATHS" = ("$(inherited)","@executable_path/Frameworks");
+				"SUPPORTS_MACCATALYST" = "NO";
+				"SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD" = "YES";
+				"ENABLE_USER_SCRIPT_SANDBOXING" = "YES";
+			};
+			"name" = "Release";
+		};
+		"F37922C48DA5978D02C9E50E" = {
+			"isa" = "XCConfigurationList";
+			"buildConfigurations" = ("E9B2E96ABC5F6856F2BE79CF","5A8C91857F674E16E2724F47");
+			"defaultConfigurationIsVisible" = 0;
+			"defaultConfigurationName" = "Release";
+		};
+		"FCB48D8F88BCDB0ED9FADFD7" = {
+			"isa" = "XCBuildConfiguration";
+			"buildSettings" = {
+				"PRODUCT_NAME" = "FortemTests";
+				"PRODUCT_BUNDLE_IDENTIFIER" = "app.fortem.apple.tests";
+				"GENERATE_INFOPLIST_FILE" = "YES";
+				"CODE_SIGN_STYLE" = "Automatic";
+				"TARGETED_DEVICE_FAMILY" = "1,2";
+				"TEST_HOST" = "$(BUILT_PRODUCTS_DIR)/Fortem.app/Fortem";
+				"BUNDLE_LOADER" = "$(TEST_HOST)";
+				"LD_RUNPATH_SEARCH_PATHS" = ("$(inherited)","@executable_path/Frameworks","@loader_path/Frameworks");
+			};
+			"name" = "Debug";
+		};
+		"942EEBBACD6C88CAE7F29B29" = {
+			"isa" = "XCBuildConfiguration";
+			"buildSettings" = {
+				"PRODUCT_NAME" = "FortemTests";
+				"PRODUCT_BUNDLE_IDENTIFIER" = "app.fortem.apple.tests";
+				"GENERATE_INFOPLIST_FILE" = "YES";
+				"CODE_SIGN_STYLE" = "Automatic";
+				"TARGETED_DEVICE_FAMILY" = "1,2";
+				"TEST_HOST" = "$(BUILT_PRODUCTS_DIR)/Fortem.app/Fortem";
+				"BUNDLE_LOADER" = "$(TEST_HOST)";
+				"LD_RUNPATH_SEARCH_PATHS" = ("$(inherited)","@executable_path/Frameworks","@loader_path/Frameworks");
+			};
+			"name" = "Release";
+		};
+		"BECB265224D91761C05FDA33" = {
+			"isa" = "XCConfigurationList";
+			"buildConfigurations" = ("FCB48D8F88BCDB0ED9FADFD7","942EEBBACD6C88CAE7F29B29");
+			"defaultConfigurationIsVisible" = 0;
+			"defaultConfigurationName" = "Release";
+		};
+		"59CE1A55E3C0DC7EDB1A684D" = {
+			"isa" = "XCBuildConfiguration";
+			"buildSettings" = {
+				"PRODUCT_NAME" = "FortemUITests";
+				"PRODUCT_BUNDLE_IDENTIFIER" = "app.fortem.apple.uitests";
+				"GENERATE_INFOPLIST_FILE" = "YES";
+				"CODE_SIGN_STYLE" = "Automatic";
+				"TARGETED_DEVICE_FAMILY" = "1,2";
+				"LD_RUNPATH_SEARCH_PATHS" = ("$(inherited)","@executable_path/Frameworks","@loader_path/Frameworks");
+				"TEST_TARGET_NAME" = "Fortem";
+			};
+			"name" = "Debug";
+		};
+		"003254340176A76C2BC8F6D4" = {
+			"isa" = "XCBuildConfiguration";
+			"buildSettings" = {
+				"PRODUCT_NAME" = "FortemUITests";
+				"PRODUCT_BUNDLE_IDENTIFIER" = "app.fortem.apple.uitests";
+				"GENERATE_INFOPLIST_FILE" = "YES";
+				"CODE_SIGN_STYLE" = "Automatic";
+				"TARGETED_DEVICE_FAMILY" = "1,2";
+				"LD_RUNPATH_SEARCH_PATHS" = ("$(inherited)","@executable_path/Frameworks","@loader_path/Frameworks");
+				"TEST_TARGET_NAME" = "Fortem";
+			};
+			"name" = "Release";
+		};
+		"3646145E0A90C6FF41610EFE" = {
+			"isa" = "XCConfigurationList";
+			"buildConfigurations" = ("59CE1A55E3C0DC7EDB1A684D","003254340176A76C2BC8F6D4");
+			"defaultConfigurationIsVisible" = 0;
+			"defaultConfigurationName" = "Release";
+		};
+		"7D1043473D55BFA90E8530D3" = {
+			"isa" = "PBXNativeTarget";
+			"buildConfigurationList" = "F37922C48DA5978D02C9E50E";
+			"buildPhases" = ("A11C0A000000000000000003","905DB04043B7311D06A28734","6C18526817C1377C39321D31","06F5DC629BD46AAFD46564D1");
+			"buildRules" = ();
+			"dependencies" = ();
+			"name" = "Fortem";
+			"productName" = "Fortem";
+			"productReference" = "38A007151ABE87CC01A5B6E9";
+			"productType" = "com.apple.product-type.application";
+		};
+		"A94A8FE5CCB19BA61C4C0873" = {
+			"isa" = "PBXNativeTarget";
+			"buildConfigurationList" = "BECB265224D91761C05FDA33";
+			"buildPhases" = ("7CB9C5DBBDFFE89694C24C30","56DA8A5B6AE55FD126745C5C");
+			"buildRules" = ();
+			"dependencies" = ("E9FAD0C6CD43534327C0AF90");
+			"name" = "FortemTests";
+			"productName" = "FortemTests";
+			"productReference" = "B7480EC88B7F22D0A4757273";
+			"productType" = "com.apple.product-type.bundle.unit-test";
+		};
+		"BD2535C6F11B59001D1B25CD" = {
+			"isa" = "PBXSourcesBuildPhase";
+			"buildActionMask" = 2147483647;
+			"files" = ("2296975E2AED84E2F7C26790");
+			"runOnlyForDeploymentPostprocessing" = 0;
+		};
+		"9B2A67F84CC574A14112EFA3" = {
+			"isa" = "PBXFrameworksBuildPhase";
+			"buildActionMask" = 2147483647;
+			"files" = ();
+			"runOnlyForDeploymentPostprocessing" = 0;
+		};
+		"C1D6574ADE4A048AA71108CF" = {
+			"isa" = "PBXNativeTarget";
+			"buildConfigurationList" = "3646145E0A90C6FF41610EFE";
+			"buildPhases" = ("BD2535C6F11B59001D1B25CD","9B2A67F84CC574A14112EFA3");
+			"buildRules" = ();
+			"dependencies" = ("E9FAD0C6CD43534327C0AF90");
+			"name" = "FortemUITests";
+			"productName" = "FortemUITests";
+			"productReference" = "B58968AD397FA1A20599C9F3";
+			"productType" = "com.apple.product-type.bundle.ui-testing";
+		};
+		"98F54143AB4E86B28C3AFEE0" = {
+			"isa" = "PBXProject";
+			"attributes" = {
+				"BuildIndependentTargetsInParallel" = "YES";
+				"LastUpgradeCheck" = "1600";
+				"TargetAttributes" = {
+					"7D1043473D55BFA90E8530D3" = {
+						"CreatedOnToolsVersion" = "16.0";
+					};
+					"A94A8FE5CCB19BA61C4C0873" = {
+						"CreatedOnToolsVersion" = "16.0";
+						"TestTargetID" = "7D1043473D55BFA90E8530D3";
+					};
+				};
+			};
+			"buildConfigurationList" = "862894B703A6DEDF96A9DD6C";
+			"compatibilityVersion" = "Xcode 14.0";
+			"developmentRegion" = "en";
+			"hasScannedForEncodings" = 0;
+			"knownRegions" = ("en","ru","Base");
+			"mainGroup" = "B28B7AF69320201D1CF206EB";
+			"productRefGroup" = "1EE63A94BAD0DF0FCB0E7B8C";
+			"projectDirPath" = "";
+			"projectRoot" = "";
+			"targets" = ("7D1043473D55BFA90E8530D3","A94A8FE5CCB19BA61C4C0873","C1D6574ADE4A048AA71108CF");
+		};
+	};
+	"rootObject" = "98F54143AB4E86B28C3AFEE0";
+}
+
+
+

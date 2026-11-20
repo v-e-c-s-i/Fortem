@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Existing Fortem artwork as a vector: launcher and launch screen stay sharp at any density. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android" android:width="108dp" android:height="108dp" android:viewportWidth="1254" android:viewportHeight="1254">
+    <group android:pivotX="627" android:pivotY="627" android:scaleX="0.82" android:scaleY="0.82">
+        <path android:pathData="M934,370 A398,398 0,1 1,873 309" android:fillColor="#00000000" android:strokeColor="#FF82D5C3" android:strokeWidth="52" android:strokeLineCap="round" />
+        <path android:fillColor="#FFE1E3E1" android:pathData="M427,478 L427,682 Q427,703 449,703 L473,703 L473,873 Q473,902 444,888 C360,848 313,777 313,693 L313,595 C313,523 354,478 411,478 Z M496,703 L528,703 L528,478 L575,478 L575,715 Q575,744 601,744 L617,744 L617,905 Q617,938 589,931 L525,919 Q496,912 496,879 Z M636,744 L653,744 Q680,744 680,714 L680,478 L726,478 L726,681 Q726,703 752,703 L758,703 L758,879 Q758,912 729,919 L664,931 Q636,938 636,905 Z M781,703 L806,703 Q827,703 827,682 L827,478 L842,478 C904,478 940,531 940,595 L940,693 C940,777 893,848 811,888 Q781,902 781,873 Z" />
+    </group>
+</vector>

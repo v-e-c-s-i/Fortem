@@ -1,0 +1,31 @@
+Salamander Grand Piano — audio attribution
+==========================================
+
+Original recordings
+-------------------
+Title: Salamander Grand Piano
+Instrument: Yamaha C5 grand piano
+Author: Alexander Holm
+Contact: axeldenstore [at] gmail [dot] com
+Source: https://freepats.zenvoid.org/Piano/acoustic-grand-piano.html
+
+Accurate Salamander processing
+------------------------------
+Project: Accurate-Salamander V6.2
+Author: C. Yamauchi
+Source: https://www.ir.isas.jaxa.jp/~cyamauch/AccurateSalamander/
+
+License
+-------
+The included audio samples are distributed under Creative Commons
+Attribution 3.0 (CC BY 3.0):
+https://creativecommons.org/licenses/by/3.0/
+
+Changes made for Fortem
+-----------------------
+Fortem includes only velocity layer v07 (30 notes sampled in minor thirds).
+At playback time the nearest recording is resampled for the requested key and
+musical tuning. The WAV audio itself is included without lossy recompression.
+
+The audio files remain under CC BY 3.0 and are separate from Fortem's
+GPL-3.0-only source code license.

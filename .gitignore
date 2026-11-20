@@ -1,0 +1,45 @@
+*.iml
+.gradle/
+.idea/
+local.properties
+build/
+captures/
+.externalNativeBuild/
+.cxx/
+app/build/
+*.apk
+*.aab
+*.jks
+*.keystore
+# Локальные секреты, ключи и служебные настройки не входят в публичный проект.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+key.properties
+keystore.properties
+
+# Служебные файлы операционной системы и журналы.
+.DS_Store
+Thumbs.db
+*.log
+
+# Apple signing files and local Xcode state.
+*.ipa
+*.p12
+*.p8
+*.mobileprovision
+*.provisionprofile
+*.xcuserstate
+xcuserdata/
+DerivedData/
+
+# Private working notes and signing material.
+*PRIVATE*
+*DEVELOPMENT-LOG*
+*.keystore
+*.jks
+*.apk
+*.aab
+*.xcarchive

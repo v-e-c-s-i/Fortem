@@ -1,0 +1,2 @@
+<!-- SPDX-License-Identifier: GPL-3.0-only; documentation rendering of Fortem UI geometry. -->
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 32 32" role="img" aria-label="Play"><title>Play</title><rect width="32" height="32" rx="5" fill="#111413"/><g transform="translate(4 4)" fill="#E1E3E1" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2.88 L19.92 12 L6 21.12 Z"/></g></svg>

@@ -1,0 +1,8 @@
+# Текст нормализуется, звуковые файлы и библиотеки сохраняются побайтно.
+* text=auto
+/gradlew text eol=lf
+*.bat text eol=crlf
+*.wav binary
+*.so binary
+*.png binary
+*.jar binary
