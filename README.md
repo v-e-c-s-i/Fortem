@@ -2,7 +2,7 @@
 
 **Android · iPhone · iPad · 1.0.3**
 
-[Релизы](https://github.com/v-e-c-s-i/Fortem-app/releases) · [Руководство](docs/USER_GUIDE.md) · [iPhone и iPad](apple/README.md)
+[Релизы](https://github.com/v-e-c-s-i/Fortem/releases) · [Руководство](docs/USER_GUIDE.md) · [iPhone и iPad](apple/README.md)
 
 <div align="center">
   <img src="app/src/main/res/drawable-nodpi/fortem_logo.png" width="128" alt="Fortem">

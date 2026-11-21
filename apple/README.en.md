@@ -6,7 +6,7 @@
 
 Native Fortem for iOS/iPadOS 16 or later.
 Xcode project: `apple/Fortem.xcodeproj`; shared scheme: `Fortem`.
-[Android](https://github.com/v-e-c-s-i/Fortem-app) · [Releases](https://github.com/v-e-c-s-i/Fortem-app/releases)
+[Android](https://github.com/v-e-c-s-i/Fortem) · [Releases](https://github.com/v-e-c-s-i/Fortem/releases)
 
 ## Features
 
