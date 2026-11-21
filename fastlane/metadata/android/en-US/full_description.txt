@@ -1,0 +1,22 @@
+Fortem is an open-source piano for playing and comparing musical tuning systems.
+
+• 88 keys, from A0 to C8, with multi-touch input
+• Salamander Grand Piano samples and a pure sine tone
+• Equal temperament, Pythagorean tuning, just intonation, quarter-comma meantone, Werckmeister III and Kirnberger III
+• Adjustable tonic and A4 reference frequency, with note frequencies and cent deviations
+• A keyboard range map with zoom and smooth scrolling
+• Pedal sustain and optional upward-swipe note latching
+• Performance recording, playback and WAV audio export
+• A 30-day trash folder for deleted performances
+• Scala .scl import for 12-note octave layouts
+• MIDI output through available Android MIDI ports
+• Russian and English interface, with adjustable control sizes
+• Adaptive layouts for landscape and split-screen use
+
+Internal recordings store played notes and changes to settings; Fortem does not record the microphone. MIDI output uses equal temperament with A4 = 440 Hz; unequal tuning of external MIDI instruments is not supported.
+
+No ads, analytics or account sign-in. The Android app requires no internet or microphone permission. Settings and performances stay on the device; system backups follow the device's settings. WAV export uses a folder chosen through Android's file picker.
+
+Code and new graphic assets: GPL-3.0-only.
+Salamander Grand Piano recordings by Alexander Holm, with Accurate Salamander processing by C. Yamauchi: CC BY 3.0.
+Oboe audio library by Google: Apache-2.0.

@@ -1,0 +1,1 @@
+Fortem 1.0.3: 88-key piano, six musical tunings, pure tone, Scala import, MIDI output, performance recording and WAV export. Russian and English interface, adjustable controls and adaptive split-screen layout. Fresh installs have no demo recordings.
